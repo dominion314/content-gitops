@@ -14,18 +14,6 @@ export GHUSER=[dominion314]
 
 kubectl create ns flux
 
-## Create a Gitlab repo. Remember to create a personal access token.
-
-<!-- Gitlab 
-
-  flux bootstrap gitlab \
-  --owner=dominion314 \
-  --repository=flux \
-  --branch=main \
-  --path=./clusters/my-cluster \
-  --personal -->
-
-
 ## This is the command needed to connect flux to github.
 
   fluxctl install \
